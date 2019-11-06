@@ -18,7 +18,7 @@ Note: If you want to add Maze functionality to an existing Ibex implementation (
 * To test, replace contents of data_includes with sample.js 
 ## Options
 
-If you're building maze materials automatically using the scripts in maze_automate, you can get those materials in ibex-format, and just copy those lines into the items list of a ibex experiment file. 
+If you're building maze materials automatically using <https://github.com/vboyce/Maze/tree/master/maze_automate>, you can get those materials in ibex-format, and just copy those lines into the items list of a ibex experiment file. 
 
 If you're not, these are the available arguments and specifications. 
 
