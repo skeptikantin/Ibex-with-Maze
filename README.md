@@ -10,7 +10,7 @@ This provides a custom Ibex module that runs the Maze task. It is an adaptation 
 
 * Clone or download this respository. 
 * Make sure you have Python 2 installed. 
-* You can test out the maze task by running the provided sample. In command line, navigate to the ibex/www folder and run "python2 server.py", then navigate to localhost:3000 in a web browser to see the experiment. 
+* You can test out the maze task by running the provided sample. In command line, navigate to the www folder and run "python2 server.py", then navigate to localhost:3000 in a web browser to see the experiment. 
 
 Note: If you want to add Maze functionality to an existing Ibex implementation (for instance, to run experiments on Ibex farm), these are the changed files:
 * Addition of Maze.css and MazeSeparator.css in the css_includes folder
