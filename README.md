@@ -8,7 +8,7 @@ This provides a custom Ibex module that runs the Maze task. It is an adaptation 
 
 ## Setup
 
-* Download this respository. 
+* Download this respository using the green "Clone or Download" button, and selecting Download zip. 
 * You will need Python 2; you can install from <https://www.python.org/downloads/release/python-2714/>.
 * You can test out the maze task by running the file *server.py* in the folder www/ using python 2. You can do this in a python application, or from in the terminal navigate to the www folder and run "python2 server.py". Then, navigate to localhost:3000 in a web browser to see the sample experiment. 
 
