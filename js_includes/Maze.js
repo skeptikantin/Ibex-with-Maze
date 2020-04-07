@@ -107,7 +107,6 @@ jqueryWidget: {
 		                rs[0] = time;
                         rs[1] = t.previousTime;
                         t.correct[word]=correct
-                        console.log(1)
                         }
 		            if (correct=="no" & t.redo){
 		                t.error.html("Incorrect. Please try again.");
