@@ -122,6 +122,8 @@ jqueryWidget: {
 		                return true;
 		                }
 	                if (correct =="yes") {
+	                    var rs=t.mazeResults[word];
+	                    rs[2] = time;
 	                    t.error.html("");
 	                    repeat=false;
 	                    }
@@ -172,8 +174,9 @@ jqueryWidget: {
                 ["Alternative", csv_url_encode(nonSpaceAlts[i])],
                 ["Word on (0=left, 1=right)", this.order[i]],
                 ["Correct", this.correct[i]],
-                ["Reading time", this.mazeResults[i][0] - this.mazeResults[i][1]],
-                ["Sentence", this.sentenceDesc]
+                ["Reading time to first answer", this.mazeResults[i][0] - this.mazeResults[i][1]],
+                ["Sentence", this.sentenceDesc],
+                ["Total time to correct answer", this.mazeResults[i][2] - this.mazeResults[i][1]],
             ]);
         }
     }
